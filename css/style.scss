@@ -279,3 +279,64 @@ header{
         }
     }
 }
+// ---------------------------- responsive
+
+@media screen and (min-width : 1920px){
+    //header
+    .imgHeader{
+        p{
+            width: 10%;
+            font-size: 15ex;
+        }
+
+    }
+    .barreH{
+        top: 80%;
+        width: 23%;
+    }
+    //projet
+    .projet{
+        .p1{
+            p{
+                padding-top: 17%;
+            }
+        }
+    }
+
+    //info
+    .info{
+        .infoG{
+            width: 43.45%;
+            padding-bottom: 5%;
+            p{
+                padding: 10%;
+            }
+        }
+        .infoM{
+            .btnPlus{
+                padding-top: 10%;
+            }
+        }
+    }
+    
+    //prix
+    .prix{
+        .imgPrix{
+            padding-right: 7%;
+        }
+        .cadrePrix{
+            top: 4%;
+            left: 72%;
+            p{
+                font-size: 8ex;
+            }
+        }
+    }
+
+    //footer
+    .footer{
+        .contact{
+            padding-top: 1.5%;
+        }
+    }
+}

@@ -261,4 +261,41 @@ header nav ul li a:hover {
 }
 .footer .reseaux a {
   color: black;
+}
+
+@media screen and (min-width: 1920px) {
+  .imgHeader p {
+    width: 10%;
+    font-size: 15ex;
+  }
+  .barreH {
+    top: 80%;
+    width: 23%;
+  }
+  .projet .p1 p {
+    padding-top: 17%;
+  }
+  .info .infoG {
+    width: 43.45%;
+    padding-bottom: 5%;
+  }
+  .info .infoG p {
+    padding: 10%;
+  }
+  .info .infoM .btnPlus {
+    padding-top: 10%;
+  }
+  .prix .imgPrix {
+    padding-right: 7%;
+  }
+  .prix .cadrePrix {
+    top: 4%;
+    left: 72%;
+  }
+  .prix .cadrePrix p {
+    font-size: 8ex;
+  }
+  .footer .contact {
+    padding-top: 1.5%;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,264 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: relative;
+}
+header .logo {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+header .logo p {
+  font-weight: bold;
+}
+header .logo .txtLogo1 {
+  font-size: 7ex;
+}
+header .logo .txtLogo2 {
+  font-size: 2ex;
+}
+header nav {
+  width: 50%;
+  padding-top: 5%;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul li a {
+  font-weight: bold;
+  color: black;
+  font-size: 1.5em;
+}
+header nav ul li a:hover {
+  border-bottom: 0.4ex solid;
+}
+
+.langue {
+  position: absolute;
+  width: 10%;
+  left: 88%;
+  top: 3%;
+}
+.langue p a {
+  color: black;
+}
+
+.imgHeader {
+  padding-bottom: 20%;
+}
+.imgHeader img {
+  width: 70%;
+  padding-left: 7%;
+  position: absolute;
+}
+.imgHeader p {
+  padding-top: 5%;
+  padding-left: 70%;
+  position: relative;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.barreH {
+  position: absolute;
+  left: 70%;
+  border-top: 1ex solid;
+  width: 21%;
+  top: 90%;
+}
+
+.projet {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-bottom: 10%;
+}
+.projet .p1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 15%;
+  font-size: 1.5ex;
+}
+.projet .p1 .txtP1 {
+  padding-bottom: 100%;
+}
+.projet .p1 a {
+  background-color: black;
+  color: white;
+  padding: 2%;
+  font-weight: bold;
+  width: 30%;
+  padding-left: 15%;
+}
+.projet .p2 {
+  padding-top: 5%;
+  width: 15%;
+  font-size: 1.5ex;
+}
+.projet .p3 {
+  padding-top: 5%;
+  width: 15%;
+  font-size: 1.5ex;
+}
+.projet .p4 {
+  width: 20%;
+  font-size: 6ex;
+  border: 0.2ex solid;
+  border-color: black;
+  margin-top: 5%;
+  padding-bottom: 3%;
+}
+.projet .p4 p {
+  font-weight: bold;
+  padding-left: 8%;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10%;
+}
+.info .infoG {
+  background-color: black;
+  width: 41.7%;
+  margin-bottom: 10%;
+}
+.info .infoG p {
+  color: white;
+  width: 80%;
+  padding: 5%;
+}
+.info .infoG img {
+  width: 90vh;
+}
+.info .infoG a {
+  background-color: black;
+  color: white;
+  border: 0.4ex solid;
+  border-color: white;
+  padding: 2% 8% 2% 8%;
+  margin-left: 5%;
+}
+.info .infoM {
+  width: 25%;
+  margin-top: 20%;
+  border-top: 1ex solid;
+}
+.info .infoM .btnPlus {
+  bottom: 0;
+  margin-top: 36%;
+}
+.info .infoM .btnPlus a {
+  background-color: black;
+  color: white;
+  padding: 1% 10% 1% 10%;
+}
+.info .infoD {
+  width: 25%;
+  margin-top: 20%;
+  border-top: 1ex solid;
+}
+.info .infoD img {
+  width: 50vh;
+}
+.info .infoD a {
+  background-color: black;
+  color: white;
+  padding: 1% 10% 1% 10%;
+  margin-top: 10%;
+}
+
+.prix {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+.prix .barre {
+  border-top: 0.9ex solid;
+  width: 70%;
+}
+.prix .txtPrix {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+.prix .txtPrix .p1 {
+  font-weight: bold;
+}
+.prix .txtPrix a {
+  margin-top: 30%;
+  background-color: black;
+  color: white;
+  width: 10%;
+  padding: 1% 7% 1% 7%;
+}
+.prix .imgPrix {
+  width: 45%;
+  position: relative;
+}
+.prix .imgPrix img {
+  width: 100vh;
+  clip: rect(0px 80px 0px 10px);
+}
+.prix .cadrePrix {
+  border: 0.9ex solid;
+  width: 8%;
+  position: absolute;
+  left: 75%;
+  top: 6%;
+  padding: 0% 5% 2% 4%;
+}
+.prix .cadrePrix p {
+  font-size: 5ex;
+  font-weight: bold;
+  padding: 2% 5% 0% 2%;
+}
+.prix .cadrePrix p span {
+  color: white;
+}
+.prix .intoPrix {
+  position: absolute;
+  top: 48%;
+  left: 83.5%;
+}
+.prix .intoPrix p {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 14ex;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  padding-bottom: 5%;
+}
+.footer .contact a {
+  color: black;
+}
+.footer .adresse {
+  margin-top: 6%;
+}
+.footer .reseaux {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 5%;
+}
+.footer .reseaux a {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
